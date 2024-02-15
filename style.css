@@ -4,6 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 :root {
 	--color-jumbotron-blue: #b4d0e7;
@@ -74,9 +82,28 @@ ul{
     border-radius: 50px;
     color: white;
 }
+/* header */
 nav{
+    background-color: white;
+}
+header{
+    margin-bottom: 100px;
     background-color: var(--color-jumbotron-blue);
 }
 .container{
     max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+.small-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#jumbo{
+    max-width: 100vh;
+    position: relative;
+    top: 80px;
+    left: 320px;
+
 }
