@@ -31,6 +31,10 @@ body{
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 /* flex utilities */
 .d-flex{
     display: flex;
@@ -76,15 +80,18 @@ ul{
     align-items: flex-start;
 }
 /* end flex utilities */
-.button{
-    border: 1px solid blue;
-    padding: 5px;
-    border-radius: 50px;
-    color: white;
+/* buttons */
+.bluebutton{
+    background-color: var(--color-button-blue);
+    padding:10px;
 }
 /* header */
 nav{
     background-color: white;
+}
+nav>div li{
+    padding: 10px 20px 10px 10px;
+    margin: 10px auto;
 }
 header{
     margin-bottom: 100px;
