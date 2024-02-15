@@ -27,6 +27,7 @@ body{
 }
 .debug{
     border: 1px solid red;
+    
 }
 ul{
     list-style: none;
@@ -84,24 +85,26 @@ a{
 /* buttons */
 .bluebutton{
     background-color: var(--color-button-blue);
-    padding: 10px;
     display: inline-block;
 }
+
 /* header */
 nav{
     background-color: white;
+    
 }
 nav>div li{
-    padding: 10px 10px 10px 10px;
-    margin: 10px auto;
+    
+    margin: 10px;
 }
 header{
     margin-bottom: 100px;
     background-color: var(--color-jumbotron-blue);
+    position: relative;
 }
 .container{
     max-width: 1200px;
-    margin: 0 auto;    
+    margin: 0 auto;   
 }
 .small-container{
     max-width: 1000px;
@@ -109,17 +112,26 @@ header{
 }
 h1{
     font-size: 90px;
+    margin-bottom: 20px;
+    
 }
 .left{
     max-width: 30%;
+    
+    
+    
 }
 .left *{
     padding: 10px 0 10px 0px;
+    margin-bottom: 40px;
+    
 }
+
+
 #jumbo{
     max-width: 100vh;
     position: absolute;
-    top: 80px;
-    left: 330px;
+    top: 320px;
+    right: 220px;
 
 }
