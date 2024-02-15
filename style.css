@@ -1,0 +1,82 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-jumbotron-blue: #b4d0e7;
+	--color-footer: #000000;
+	--color-button-blue: #0061ff;
+	--color-yellow: #ffd830;
+	--color-dark-red: #d5001f;
+	--color-lonely-planet: #0d2481;
+	--color-designit: #f5f5f5;
+	--color-asu: #61082b;
+	--color-florida: #0093ce;
+	--color-designit-green: #a2d39b;
+}
+.debug{
+    border: 1px solid red;
+}
+ul{
+    list-style: none;
+}
+/* flex utilities */
+.d-flex{
+    display: flex;
+}
+.no-flex{
+    display: block;
+}
+.align-items-center{
+    align-items: center;
+    align-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-flexend{
+    justify-content: flex-end;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.align-baseline{
+    align-items: baseline;
+}
+.space-around{
+    justify-content: space-around;
+}
+.align-flex-start{
+    align-items: flex-start;
+}
+/* end flex utilities */
+.button{
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+}
+nav{
+    background-color: var(--color-jumbotron-blue);
+}
+.container{
+    max-width: 1200px;
+}
