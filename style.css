@@ -80,17 +80,19 @@ a{
     align-items: flex-start;
 }
 /* end flex utilities */
+
 /* buttons */
 .bluebutton{
     background-color: var(--color-button-blue);
-    padding:10px;
+    padding: 10px;
+    display: inline-block;
 }
 /* header */
 nav{
     background-color: white;
 }
 nav>div li{
-    padding: 10px 20px 10px 10px;
+    padding: 10px 10px 10px 10px;
     margin: 10px auto;
 }
 header{
@@ -99,18 +101,25 @@ header{
 }
 .container{
     max-width: 1200px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;    
 }
 .small-container{
     max-width: 1000px;
     margin: 0 auto;
 }
+h1{
+    font-size: 90px;
+}
+.left{
+    max-width: 30%;
+}
+.left *{
+    padding: 10px 0 10px 0px;
+}
 #jumbo{
     max-width: 100vh;
-    position: relative;
+    position: absolute;
     top: 80px;
-    left: 320px;
+    left: 330px;
 
 }
