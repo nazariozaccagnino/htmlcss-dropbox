@@ -80,6 +80,7 @@ a{
 .align-flex-start{
     align-items: flex-start;
 }
+
 /* end flex utilities */
 
 /* buttons */
@@ -98,9 +99,9 @@ nav>div li{
     margin: 10px;
 }
 header{
-    margin-bottom: 100px;
+    margin-bottom: 190px;
     background-color: var(--color-jumbotron-blue);
-    position: relative;
+    
 }
 .container{
     max-width: 1200px;
@@ -113,25 +114,28 @@ header{
 h1{
     font-size: 90px;
     margin-bottom: 20px;
+    margin-top: 20px;
     
 }
 .left{
     max-width: 30%;
-    
-    
-    
+    position: relative;   
 }
+
 .left *{
     padding: 10px 0 10px 0px;
     margin-bottom: 40px;
     
 }
 
-
 #jumbo{
     max-width: 100vh;
     position: absolute;
     top: 320px;
-    right: 220px;
+    right: 260px;
 
+}
+.prova{
+    margin: 10px;
+    padding: 10px;
 }
