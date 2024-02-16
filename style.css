@@ -267,3 +267,20 @@ h1{
 .tryit h2{
     font-size: 2em;
 }
+/* faq section */
+.faq h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.question{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0px 20px 0px;
+}
+.faq p{
+    color: red;
+    
+}
+.faq p:hover{
+    color: blue;
+}
