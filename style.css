@@ -33,9 +33,13 @@ body{
 ul{
     list-style: none;
 }
-a:not(#buynow){
+
+.bluebutton > a{
     text-decoration: none;
     color: white;
+}
+section{
+    margin-bottom: 70px;
 }
 /* flex utilities */
 .d-flex{
@@ -101,7 +105,7 @@ nav{
     background-color: white;
     
 }
-header nav ul li, a{
+header nav ul li a{
     margin: 10px;
 }
 header{
@@ -198,13 +202,23 @@ h1{
     max-width: 40%;
 }
 /* Dropbox Business section */
-
-.box{
+.item{
     width: calc(100% / 3);
 }
-.item{
-   min-width: 100%;
+.item *{
+    padding: 10px;
 }
 .item img{
     max-width: 100%;
+}
+/* learn more section */
+.learnmore{
+    padding-bottom: 20px;
+    max-width: 50%;
+}
+.aaa{
+    margin-top: 50px;
+}
+.learnmore h2{
+    font-size: 2em;
 }
