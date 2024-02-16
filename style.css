@@ -135,7 +135,7 @@ h1{
     
 }
 .rightsmall{
-    
+
 }
 .horizontaltile .bluebutton{
     
@@ -196,4 +196,15 @@ h1{
 }
 .partnertext{
     max-width: 40%;
+}
+/* Dropbox Business section */
+
+.box{
+    width: calc(100% / 3);
+}
+.item{
+   min-width: 100%;
+}
+.item img{
+    max-width: 100%;
 }
