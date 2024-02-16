@@ -222,3 +222,16 @@ h1{
 .learnmore h2{
     font-size: 2em;
 }
+/* partners section */
+.partners{
+    max-width: 100%;
+}
+.square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+.square img{
+    max-height: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 /1;
+}
