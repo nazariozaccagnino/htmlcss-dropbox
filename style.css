@@ -11,6 +11,7 @@ body{
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    min-width: 1200px;
 }
 
 :root {
@@ -87,6 +88,7 @@ a{
 .bluebutton{
     background-color: var(--color-button-blue);
     display: inline-block;
+    padding: 5px;
 }
 
 /* header */
@@ -94,8 +96,7 @@ nav{
     background-color: white;
     
 }
-nav>div li{
-    
+header nav ul li, a{
     margin: 10px;
 }
 header{
@@ -113,26 +114,29 @@ header{
 }
 h1{
     font-size: 90px;
-    margin-bottom: 20px;
     margin-top: 20px;
     
 }
 .left{
-    max-width: 30%;
-    position: relative;   
+    max-width: 40%;
+    margin-top: 40px;  
 }
 
 .left *{
-    padding: 10px 0 10px 0px;
+    padding: 10px 5px 10px 5px;
     margin-bottom: 40px;
     
 }
 
+.subtitle{
+    margin-top: 40px;
+}
 #jumbo{
     max-width: 100vh;
-    position: absolute;
-    top: 320px;
-    right: 260px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    
 
 }
 .prova{
