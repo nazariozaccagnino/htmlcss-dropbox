@@ -225,10 +225,14 @@ h1{
 /* partners section */
 .partners{
     max-width: 100%;
-    /* width: calc(100% / 3); */
 }
 .square{
     width: calc(100% / 3);
+}
+.square img{
+    max-width: 100%;
+    filter: invert(100%);    
+    display: block;
 }
 .logo{
     width: calc(100% / 2);
@@ -248,8 +252,14 @@ h1{
 .redlogo{
     background-color: red;
 }
-.square img{
-    max-width: 100%;
-    filter: invert(100%);    
-    display: block;
+/* tryit section */
+.tryit{
+    background-color: #B4D0E7;
+    color: var(--color-asu);
+}
+.tryfree{
+    padding: 100px;
+}
+.tryit h2{
+    font-size: 2em;
 }
