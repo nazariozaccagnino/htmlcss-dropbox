@@ -225,13 +225,18 @@ h1{
 /* partners section */
 .partners{
     max-width: 100%;
+    /* width: calc(100% / 3); */
 }
 .square{
+    width: calc(100% / 3);
+}
+.logo{
     width: calc(100% / 2);
     height: calc(100% / 2);
+    padding: 50px;
 }
 .square img{
-    max-height: 100%;
     max-width: 100%;
     aspect-ratio: 1 /1;
+    display: block;
 }
