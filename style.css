@@ -235,8 +235,21 @@ h1{
     height: calc(100% / 2);
     padding: 50px;
 }
+/* logos background */
+.greenlogo{
+    background-color: var(--color-designit-green);
+}
+.bordeauxlogo{
+    background-color: var(--color-asu);
+}
+.skybluelogo{
+    background-color: var(--color-florida);
+}
+.redlogo{
+    background-color: red;
+}
 .square img{
     max-width: 100%;
-    aspect-ratio: 1 /1;
+    filter: invert(100%);    
     display: block;
 }
