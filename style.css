@@ -126,10 +126,15 @@ h1{
     max-width: 40%;
     margin-top: 40px;  
 }
-
+.leftbig{
+    max-width: 60%;
+}
 .left *{
     padding: 10px 5px 10px 5px;
     margin-bottom: 40px;
+    
+}
+.rightsmall{
     
 }
 .horizontaltile .bluebutton{
@@ -180,4 +185,15 @@ h1{
 .separ-line{
     border-bottom: 1px solid grey;
     margin-right: 200px;
+}
+/* partner */
+.partner{
+    margin: 30px 0px 30px 0px
+}
+.partnerimg{
+    max-width: 100%;
+    
+}
+.partnertext{
+    max-width: 40%;
 }
