@@ -276,11 +276,21 @@ h1{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 20px 0px 20px 0px;
+    position: relative;
+    font-weight: 600;
 }
 .faq p{
-    color: red;
+   display: none;
     
 }
-.faq p:hover{
-    color: blue;
+.caret{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    display: inline-block;
+}
+.caret:hover + .fgh {
+    display: block;
+    padding: 20px;
+    font-weight: 300;
 }
