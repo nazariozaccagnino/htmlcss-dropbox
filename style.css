@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -26,12 +29,21 @@ body{
 	--color-florida: #0093ce;
 	--color-designit-green: #a2d39b;
 }
+/* utility */
 .debug{
     border: 1px solid red;
     
 }
 ul{
     list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;   
+}
+.small-container{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .bluebutton > a{
@@ -117,14 +129,7 @@ header{
     background-color: var(--color-jumbotron-blue);
     
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;   
-}
-.small-container{
-    max-width: 1000px;
-    margin: 0 auto;
-}
+
 h1{
     font-size: 90px;
     margin-top: 20px;
@@ -163,11 +168,13 @@ h1{
 
 /* tiles */
 .longtile{
-    margin: 10px;
+    margin: 0px;
     border: 1px solid black;
-    width: calc (100% / 3);
+    max-width: calc(100% / 3 - 22px);
     padding: 0px 40px 50px 40px;
+    
 }
+
 .longtile *{
     padding: 0px 20px 10px 0px;
     margin-bottom: 10px;
@@ -271,9 +278,10 @@ h1{
 .faq h2{
     font-size: 2em;
     margin-bottom: 30px;
+    
 }
 .question{
-    border-top: 1px solid black;
+    
     border-bottom: 1px solid black;
     padding: 20px 0px 20px 0px;
     position: relative;
