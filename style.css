@@ -294,3 +294,25 @@ h1{
     padding: 20px;
     font-weight: 300;
 }
+/* footer section */
+footer{
+    background-color: var(--color-footer);
+    color: white;
+}
+footer h3{
+    margin: 80px 0px 20px 0px;
+}
+footer ul li{
+    padding-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.language{
+    color: grey;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 50px 30px 50px 0px;
+    border-top: 1px solid gray;
+}
