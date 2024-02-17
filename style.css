@@ -204,6 +204,7 @@ h2{
 .longtile i{
     padding: 0;
     text-indent: -1.3em;
+    
 
 }
 .longtile .bluebutton{
@@ -222,6 +223,22 @@ h2{
 .separ-line{
     border-bottom: 1px solid grey;
     margin-right: 200px;
+}
+.horizontaltile{
+    margin: 0px;
+    border: 1px solid black;
+    max-width: 100%;
+    padding: 0px 40px 50px 40px;
+}
+.horizontaltile *:not(.bluebutton, a){
+    padding: 10px;
+}
+.plain>div{
+    margin-top: 30px;
+}
+.horizontaltile .headtile{
+    text-align: center;
+    display: block;
 }
 /* partner */
 .partner{
