@@ -338,6 +338,9 @@ h2{
     height: calc(100% / 2);
     padding: 50px;
 }
+.logo:hover{
+    border: 20px solid rgba(255, 255, 255, 0.482);
+}
 
 /* logos background */
 .greenlogo{
