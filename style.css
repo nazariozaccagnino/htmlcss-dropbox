@@ -110,10 +110,23 @@ section{
     height: 40px;
     text-align: center;
 }
+.graybutton{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+}
 .bluebutton > a{
     text-decoration: none;
-    color: white;
-    
+    color: white;    
+}
+.graybutton > a{
+    text-decoration: none;
+    color: black;
 }
 /* radio button */
 .radio-box{
@@ -166,18 +179,12 @@ h2{
     max-width: 40%;
     margin-top: 40px;  
 }
-.leftbig{
-    max-width: 60%;
-}
 .left *{
     padding: 10px 5px 10px 5px;
     margin-bottom: 40px;
     
 }
-.horizontaltile .bluebutton{
-    
-    
-}
+
 .subtitle{
     margin-top: 40px;
 }
@@ -215,10 +222,9 @@ h2{
 }
 .headtile{
     border-bottom: 1px solid black;
-    margin-top: 5px;
     text-align: center;
-    padding: 0;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .separ-line{
     border-bottom: 1px solid grey;
@@ -227,30 +233,36 @@ h2{
 .horizontaltile{
     margin: 0px;
     border: 1px solid black;
-    max-width: 100%;
-    padding: 0px 40px 50px 40px;
+    max-width: 100%;   
 }
 .horizontaltile *:not(.bluebutton, a){
-    padding: 10px;
-}
-.plain>div{
-    margin-top: 30px;
+    padding: 0px 10px 5px 10px;
+    margin-top: 10px;
 }
 .horizontaltile .headtile{
     text-align: center;
-    display: block;
+}
+.horizontaltile h4{
+    font-size: 1.5em;
+}
+.contactus-content{
+    padding: 60px;
+}
+.contactus-content *:not(.graybutton, a){
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 10px;
 }
 /* partner */
 .partner{
     margin: 30px 0px 30px 0px
 }
 .partnerimg{
-    max-width: 100%;
-    
+    max-width: 100%;    
 }
 .partnertext{
     max-width: 40%;
 }
+
 /* Dropbox Business section */
 .item{
     width: calc(100% / 3);
