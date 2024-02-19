@@ -246,6 +246,7 @@ h2{
 }
 .separ-line{
     border-bottom: 1px solid grey;
+    margin-right: 200px;
 }
 .horizontaltile{
     margin: 0px;
