@@ -169,8 +169,7 @@ header{
 }
 
 h1{
-    font-size: 90px;
-    margin-top: 20px;    
+    font-size: 90px;    
 }
 h2{
     margin-bottom: 30px;
@@ -193,6 +192,10 @@ h2{
     position: relative;
     width: 100%;
     margin-top: 40px; 
+}
+.hero{
+    position: relative;
+    top: 80px;
 }
 
 /* tiles */
@@ -290,6 +293,7 @@ h2{
 }
 .square{
     width: calc(100% / 3);
+    height: calc(100% / 2);
 }
 .square img{
     max-width: 100%;
