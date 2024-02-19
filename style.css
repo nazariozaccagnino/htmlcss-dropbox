@@ -189,18 +189,18 @@ h2{
 }
 
 /* tiles */
-.longtile{
+.longtile:not(.headtile){
     margin: 0px;
     border: 1px solid black;
-    max-width: calc(100% / 3 - 22px);
-    padding: 0px 40px 50px 40px;
-    
+    max-width: calc(100% / 3 - 15px);
 }
 
-.longtile *:not(.bluebutton, a){
-    padding: 0px 0px 10px 0px;
+
+.tile-content *:not(.bluebutton){
+    padding: 0px 4px 25px 10px;
     margin-bottom: 10px;
 }
+
 .longtile i{
     padding: 0;
     text-indent: -1.3em;
@@ -208,7 +208,7 @@ h2{
 
 }
 .longtile .bluebutton{
-    margin: 0px;
+    margin-left: 40px;
     padding-top: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -283,6 +283,18 @@ h2{
     max-width: 100%;
     filter: invert(100%);    
     display: block;
+}
+.centersquare{
+    width: calc(100% / 3);
+    background-color: #F5F5F5;
+    padding: 30px;
+}
+.centersquare img{
+    max-width: 60%;
+}
+.centersquare .separ-line{
+    padding: 0px 50px 0px 0px;
+    margin-bottom: 40px;
 }
 .logo{
     width: calc(100% / 2);
